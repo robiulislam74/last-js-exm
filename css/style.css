@@ -1,0 +1,61 @@
+
+*{
+    border: none;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.background{
+    background: #4970BC;
+    width: 850px;
+    height: 450px;
+    border-radius:20px;
+    position: relative;
+    padding: 45px;
+    position: absolute;
+    top: 24%;
+    left: 29%;
+    transform: translate(-20%,-20%);
+}
+
+.background .addition{
+    padding: 18px 140px 18px 16px;
+    border-radius: 10px;
+}
+.background .substraction{
+    padding: 18px 140px 18px 16px;
+    border-radius: 10px;
+    float: right;
+}
+.background .multyplication{
+    padding: 18px 140px 18px 16px;
+    border-radius: 10px;
+    margin-top: 245px;
+}
+.background .division{
+    padding: 18px 140px 18px 16px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 245px;
+}
+
+.background .submitBtn {
+    padding: 18px 406px 18px;
+    border-radius: 50px;
+    background: #fff;
+    position: absolute;
+    bottom: 41px;
+    left: 37px;
+}
+
+.background h1{
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-size: 96px;
+  font-weight: 300;
+}
